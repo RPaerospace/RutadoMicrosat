@@ -1,0 +1,1830 @@
+<SOAP_ENV:Envelope xmlns:NS1="CATIA/V5/Electrical/1.0" xmlns:NS2="http://www.ixfstd.org/std/ns/core/classBehaviors/links/1.0" xmlns:ixf="http://www.ixfstd.org/std/ns/core/1.0" xmlns:tns="IXF_Schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP_ENV="http://schemas.xmlsoap.org/soap/envelope/" xsi:schemaLocation="IXF_Schema.xsd ElectricalSchema.xsd">
+  <SOAP_ENV:Body>
+    <ixf:object id="MUSESAT-1" xsi:type="tns:Harness">
+      <tns:Name>MUSESAT-1</tns:Name>
+    </ixf:object>
+    <ixf:object id="C1;1" xsi:type="tns:Wire">
+      <tns:Name>C1;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID0" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C1;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID1" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#COMM_C01" />
+        <NS2:object2 href="#C1;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID2" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-OBC_B01" />
+        <NS2:object2 href="#C1;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C2;1" xsi:type="tns:Wire">
+      <tns:Name>C2;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID3" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C2;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID4" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#COMM_C01" />
+        <NS2:object2 href="#C2;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID5" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-OBC_B01" />
+        <NS2:object2 href="#C2;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C3;1" xsi:type="tns:Wire">
+      <tns:Name>C3;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID6" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C3;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID7" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#COMM_C01" />
+        <NS2:object2 href="#C3;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID8" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-OBC_B01" />
+        <NS2:object2 href="#C3;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C4;1" xsi:type="tns:Wire">
+      <tns:Name>C4;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID9" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C4;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID10" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#COMM_C01" />
+        <NS2:object2 href="#C4;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID11" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-OBC_B01" />
+        <NS2:object2 href="#C4;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C5;1" xsi:type="tns:Wire">
+      <tns:Name>C5;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID12" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C5;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID13" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#COMM_C01" />
+        <NS2:object2 href="#C5;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID14" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-OBC_B01" />
+        <NS2:object2 href="#C5;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C6;1" xsi:type="tns:Wire">
+      <tns:Name>C6;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID15" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C6;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID16" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#COMM_C01" />
+        <NS2:object2 href="#C6;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID17" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-OBC_B01" />
+        <NS2:object2 href="#C6;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C7;1" xsi:type="tns:Wire">
+      <tns:Name>C7;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID18" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C7;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID19" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#COMM_C01" />
+        <NS2:object2 href="#C7;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID20" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-PCDU_P01" />
+        <NS2:object2 href="#C7;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C8;1" xsi:type="tns:Wire">
+      <tns:Name>C8;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID21" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C8;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID22" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#COMM_C01" />
+        <NS2:object2 href="#C8;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID23" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-PCDU_P01" />
+        <NS2:object2 href="#C8;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C9;1" xsi:type="tns:Wire">
+      <tns:Name>C9;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID24" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C9;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID25" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PL1_PL01" />
+        <NS2:object2 href="#C9;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID26" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-PCDU_P01" />
+        <NS2:object2 href="#C9;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C10;1" xsi:type="tns:Wire">
+      <tns:Name>C10;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID27" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C10;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID28" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PL1_PL01" />
+        <NS2:object2 href="#C10;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID29" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-PCDU_P01" />
+        <NS2:object2 href="#C10;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C11;1" xsi:type="tns:Wire">
+      <tns:Name>C11;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID30" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C11;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID31" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PL1_PL01" />
+        <NS2:object2 href="#C11;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID32" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-PCDU_P01" />
+        <NS2:object2 href="#C11;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C12;1" xsi:type="tns:Wire">
+      <tns:Name>C12;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID33" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C12;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID34" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PL1_PL01" />
+        <NS2:object2 href="#C12;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID35" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-PCDU_P01" />
+        <NS2:object2 href="#C12;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C13;1" xsi:type="tns:Wire">
+      <tns:Name>C13;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID36" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C13;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID37" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PL1_PL01" />
+        <NS2:object2 href="#C13;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID38" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-DAS_B02" />
+        <NS2:object2 href="#C13;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C14;1" xsi:type="tns:Wire">
+      <tns:Name>C14;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID39" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C14;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID40" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PL1_PL01" />
+        <NS2:object2 href="#C14;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID41" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-DAS_B02" />
+        <NS2:object2 href="#C14;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C15;1" xsi:type="tns:Wire">
+      <tns:Name>C15;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID42" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C15;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID43" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PL1_PL01" />
+        <NS2:object2 href="#C15;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID44" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-DAS_B02" />
+        <NS2:object2 href="#C15;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C16;1" xsi:type="tns:Wire">
+      <tns:Name>C16;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID45" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C16;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID46" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PL1_PL01" />
+        <NS2:object2 href="#C16;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID47" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-DAS_B02" />
+        <NS2:object2 href="#C16;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C17;1" xsi:type="tns:Wire">
+      <tns:Name>C17;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID48" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C17;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID49" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PL1_PL01" />
+        <NS2:object2 href="#C17;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID50" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-DAS_B02" />
+        <NS2:object2 href="#C17;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C18;1" xsi:type="tns:Wire">
+      <tns:Name>C18;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID51" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C18;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID52" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PL1_PL01" />
+        <NS2:object2 href="#C18;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID53" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-DAS_B02" />
+        <NS2:object2 href="#C18;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C19;1" xsi:type="tns:Wire">
+      <tns:Name>C19;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID54" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C19;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID55" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#MGM_PL02" />
+        <NS2:object2 href="#C19;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID56" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-PCDU_P01" />
+        <NS2:object2 href="#C19;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C20;1" xsi:type="tns:Wire">
+      <tns:Name>C20;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID57" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C20;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID58" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#MGM_PL02" />
+        <NS2:object2 href="#C20;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID59" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-PCDU_P01" />
+        <NS2:object2 href="#C20;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C21;1" xsi:type="tns:Wire">
+      <tns:Name>C21;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID60" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C21;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID61" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#MGM_PL02" />
+        <NS2:object2 href="#C21;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID62" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-DAS_B02" />
+        <NS2:object2 href="#C21;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C22;1" xsi:type="tns:Wire">
+      <tns:Name>C22;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID63" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C22;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID64" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#MGM_PL02" />
+        <NS2:object2 href="#C22;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID65" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-DAS_B02" />
+        <NS2:object2 href="#C22;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C23;1" xsi:type="tns:Wire">
+      <tns:Name>C23;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID66" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C23;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID67" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#MGM_PL02" />
+        <NS2:object2 href="#C23;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID68" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-DAS_B02" />
+        <NS2:object2 href="#C23;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C24;1" xsi:type="tns:Wire">
+      <tns:Name>C24;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID69" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C24;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID70" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#MGM_PL02" />
+        <NS2:object2 href="#C24;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID71" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-DAS_B02" />
+        <NS2:object2 href="#C24;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C25;1" xsi:type="tns:Wire">
+      <tns:Name>C25;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID72" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C25;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID73" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#RWS_RWS-01" />
+        <NS2:object2 href="#C25;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID74" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-OBC_B01" />
+        <NS2:object2 href="#C25;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C26;1" xsi:type="tns:Wire">
+      <tns:Name>C26;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID75" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C26;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID76" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#RWS_RWS-01" />
+        <NS2:object2 href="#C26;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID77" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-OBC_B01" />
+        <NS2:object2 href="#C26;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C27;1" xsi:type="tns:Wire">
+      <tns:Name>C27;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID78" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C27;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID79" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#RWS_RWS-01" />
+        <NS2:object2 href="#C27;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID80" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-OBC_B01" />
+        <NS2:object2 href="#C27;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C28;1" xsi:type="tns:Wire">
+      <tns:Name>C28;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID81" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C28;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID82" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#RWS_RWS-01" />
+        <NS2:object2 href="#C28;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID83" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-OBC_B01" />
+        <NS2:object2 href="#C28;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C29;1" xsi:type="tns:Wire">
+      <tns:Name>C29;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID84" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C29;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID85" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#RWS_RWS-01" />
+        <NS2:object2 href="#C29;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID86" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-OBC_B01" />
+        <NS2:object2 href="#C29;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C30;1" xsi:type="tns:Wire">
+      <tns:Name>C30;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID87" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C30;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID88" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#RWS_RWS-01" />
+        <NS2:object2 href="#C30;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID89" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-OBC_B01" />
+        <NS2:object2 href="#C30;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C31;1" xsi:type="tns:Wire">
+      <tns:Name>C31;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID90" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C31;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID91" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#RWS_RWS-01" />
+        <NS2:object2 href="#C31;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID92" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-PCDU_P01" />
+        <NS2:object2 href="#C31;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C32;1" xsi:type="tns:Wire">
+      <tns:Name>C32;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID93" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C32;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID94" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#RWS_RWS-01" />
+        <NS2:object2 href="#C32;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID95" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-PCDU_P01" />
+        <NS2:object2 href="#C32;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C33;1" xsi:type="tns:Wire">
+      <tns:Name>C33;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID96" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C33;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID97" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#RWS_RWS-01" />
+        <NS2:object2 href="#C33;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID98" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-PCDU_P01" />
+        <NS2:object2 href="#C33;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C34;1" xsi:type="tns:Wire">
+      <tns:Name>C34;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID99" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C34;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID100" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#RWS_RWS-01" />
+        <NS2:object2 href="#C34;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID101" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-PCDU_P01" />
+        <NS2:object2 href="#C34;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C35;1" xsi:type="tns:Wire">
+      <tns:Name>C35;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID102" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C35;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID103" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#STS_STS-01" />
+        <NS2:object2 href="#C35;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID104" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-OBC_B01" />
+        <NS2:object2 href="#C35;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C36;1" xsi:type="tns:Wire">
+      <tns:Name>C36;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID105" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C36;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID106" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#STS_STS-01" />
+        <NS2:object2 href="#C36;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID107" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-OBC_B01" />
+        <NS2:object2 href="#C36;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C37;1" xsi:type="tns:Wire">
+      <tns:Name>C37;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID108" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C37;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID109" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#STS_STS-01" />
+        <NS2:object2 href="#C37;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID110" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-OBC_B01" />
+        <NS2:object2 href="#C37;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C38;1" xsi:type="tns:Wire">
+      <tns:Name>C38;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID111" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C38;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID112" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#STS_STS-01" />
+        <NS2:object2 href="#C38;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID113" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-OBC_B01" />
+        <NS2:object2 href="#C38;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C39;1" xsi:type="tns:Wire">
+      <tns:Name>C39;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID114" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C39;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID115" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#STS_STS-01" />
+        <NS2:object2 href="#C39;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID116" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-PCDU_P01" />
+        <NS2:object2 href="#C39;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C40;1" xsi:type="tns:Wire">
+      <tns:Name>C40;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID117" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C40;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID118" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#STS_STS-01" />
+        <NS2:object2 href="#C40;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID119" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-PCDU_P01" />
+        <NS2:object2 href="#C40;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C41;1" xsi:type="tns:Wire">
+      <tns:Name>C41;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID120" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C41;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID121" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#STS_STS-01" />
+        <NS2:object2 href="#C41;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID122" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-PCDU_P01" />
+        <NS2:object2 href="#C41;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C42;1" xsi:type="tns:Wire">
+      <tns:Name>C42;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID123" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C42;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID124" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-BATT_J01" />
+        <NS2:object2 href="#C42;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID125" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-PCDU_P01" />
+        <NS2:object2 href="#C42;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C43;1" xsi:type="tns:Wire">
+      <tns:Name>C43;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID126" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C43;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID127" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-BATT_J01" />
+        <NS2:object2 href="#C43;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID128" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-PCDU_P01" />
+        <NS2:object2 href="#C43;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C44;1" xsi:type="tns:Wire">
+      <tns:Name>C44;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID129" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C44;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID130" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-BATT_J01" />
+        <NS2:object2 href="#C44;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID131" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-PCDU_P01" />
+        <NS2:object2 href="#C44;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C45;1" xsi:type="tns:Wire">
+      <tns:Name>C45;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID132" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C45;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID133" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-BATT_J01" />
+        <NS2:object2 href="#C45;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID134" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-PCDU_P01" />
+        <NS2:object2 href="#C45;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C46;1" xsi:type="tns:Wire">
+      <tns:Name>C46;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID135" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C46;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID136" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-BATT_J01" />
+        <NS2:object2 href="#C46;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID137" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-PCDU_P01" />
+        <NS2:object2 href="#C46;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C47;1" xsi:type="tns:Wire">
+      <tns:Name>C47;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID138" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C47;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID139" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-BATT_J01" />
+        <NS2:object2 href="#C47;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID140" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-PCDU_P01" />
+        <NS2:object2 href="#C47;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C48;1" xsi:type="tns:Wire">
+      <tns:Name>C48;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID141" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C48;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID142" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-BATT_J01" />
+        <NS2:object2 href="#C48;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID143" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-PCDU_P01" />
+        <NS2:object2 href="#C48;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C49;1" xsi:type="tns:Wire">
+      <tns:Name>C49;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID144" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C49;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID145" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-BATT_J01" />
+        <NS2:object2 href="#C49;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID146" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-PCDU_P01" />
+        <NS2:object2 href="#C49;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C50;1" xsi:type="tns:Wire">
+      <tns:Name>C50;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID147" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C50;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID148" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-BATT_J01" />
+        <NS2:object2 href="#C50;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID149" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-PCDU_P01" />
+        <NS2:object2 href="#C50;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C51;1" xsi:type="tns:Wire">
+      <tns:Name>C51;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID150" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C51;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID151" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-BATT_J01" />
+        <NS2:object2 href="#C51;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID152" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-PCDU_P01" />
+        <NS2:object2 href="#C51;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C52;1" xsi:type="tns:Wire">
+      <tns:Name>C52;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID153" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C52;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID154" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-BATT_J01" />
+        <NS2:object2 href="#C52;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID155" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-DAS_B02" />
+        <NS2:object2 href="#C52;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C53;1" xsi:type="tns:Wire">
+      <tns:Name>C53;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID156" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C53;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID157" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-BATT_J01" />
+        <NS2:object2 href="#C53;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID158" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-DAS_B02" />
+        <NS2:object2 href="#C53;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C54;1" xsi:type="tns:Wire">
+      <tns:Name>C54;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID159" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C54;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID160" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-BATT_J01" />
+        <NS2:object2 href="#C54;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID161" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-DAS_B02" />
+        <NS2:object2 href="#C54;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="C55;1" xsi:type="tns:Wire">
+      <tns:Name>C55;1</tns:Name>
+      <NS1:Wire>
+        <NS1:SeparationCode>1</NS1:SeparationCode>
+        <NS1:Color>
+        </NS1:Color>
+        <NS1:LinearMass>7,40</NS1:LinearMass>
+        <NS1:OuterDiameter>0,00155</NS1:OuterDiameter>
+        <NS1:BendRadius>0,01550</NS1:BendRadius>
+      </NS1:Wire>
+      <NS1:Product>
+        <NS1:PartNumber>390102406B</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="UID162" xsi:type="tns:HarnessLink">
+      <NS2:link>
+        <NS2:object1 href="#MUSESAT-1" />
+        <NS2:object2 href="#C55;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID163" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#PW-BATT_J01" />
+        <NS2:object2 href="#C55;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="UID164" xsi:type="tns:WireLink">
+      <NS2:link>
+        <NS2:object1 href="#OBDH-DAS_B02" />
+        <NS2:object2 href="#C55;1" />
+      </NS2:link>
+    </ixf:object>
+    <ixf:object id="COMM_C01" xsi:type="tns:Connector">
+      <tns:Name>COMM_C01</tns:Name>
+      <NS1:Connector />
+      <NS1:Product>
+        <NS1:PartNumber>C01</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="OBDH-OBC_B01" xsi:type="tns:Connector">
+      <tns:Name>OBDH-OBC_B01</tns:Name>
+      <NS1:Connector />
+      <NS1:Product>
+        <NS1:PartNumber>B01</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="PW-PCDU_P01" xsi:type="tns:Connector">
+      <tns:Name>PW-PCDU_P01</tns:Name>
+      <NS1:Connector />
+      <NS1:Product>
+        <NS1:PartNumber>P01</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="PL1_PL01" xsi:type="tns:Connector">
+      <tns:Name>PL1_PL01</tns:Name>
+      <NS1:Connector />
+      <NS1:Product>
+        <NS1:PartNumber>PL01</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="OBDH-DAS_B02" xsi:type="tns:Connector">
+      <tns:Name>OBDH-DAS_B02</tns:Name>
+      <NS1:Connector />
+      <NS1:Product>
+        <NS1:PartNumber>B02</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="MGM_PL02" xsi:type="tns:Connector">
+      <tns:Name>MGM_PL02</tns:Name>
+      <NS1:Connector />
+      <NS1:Product>
+        <NS1:PartNumber>PL02</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="RWS_RWS-01" xsi:type="tns:Connector">
+      <tns:Name>RWS_RWS-01</tns:Name>
+      <NS1:Connector />
+      <NS1:Product>
+        <NS1:PartNumber>RWS-01</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="STS_STS-01" xsi:type="tns:Connector">
+      <tns:Name>STS_STS-01</tns:Name>
+      <NS1:Connector />
+      <NS1:Product>
+        <NS1:PartNumber>STS-01</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+    <ixf:object id="PW-BATT_J01" xsi:type="tns:Connector">
+      <tns:Name>PW-BATT_J01</tns:Name>
+      <NS1:Connector />
+      <NS1:Product>
+        <NS1:PartNumber>J01</NS1:PartNumber>
+      </NS1:Product>
+    </ixf:object>
+  </SOAP_ENV:Body>
+</SOAP_ENV:Envelope>
